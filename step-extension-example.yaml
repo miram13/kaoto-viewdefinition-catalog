@@ -1,0 +1,11 @@
+name: stepextension
+id: detail-step
+type: step
+url:  http://localhost:3007/remoteEntry.js
+module: './Button'
+scope: 'burger'
+constraints: 
+   -
+      mandatory: true
+      operation: CONTAINS_STEP_NAME
+      parameter: twitter-search-source     
