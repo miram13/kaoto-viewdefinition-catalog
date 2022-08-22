@@ -1,4 +1,4 @@
-name: stepextension
+name: burger
 id: detail-step
 type: step
 url:  http://localhost:3007/remoteEntry.js
